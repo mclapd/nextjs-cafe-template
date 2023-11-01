@@ -1,5 +1,9 @@
-import Image from "next/image";
+import MainImage from "./components/imageSlide/MainImge";
 
 export default function Home() {
-  return <div className="text-rose-500 font-bold pt-10">My project</div>;
+  return (
+    <div>
+      <MainImage />
+    </div>
+  );
 }
